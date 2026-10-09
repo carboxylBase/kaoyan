@@ -1,0 +1,4 @@
+# Preserve byte-identical source archives and their original whitespace.
+resources/archived_pages/** -text -whitespace
+*.pdf -text
+resources/local_sources_manifest.json text eol=lf

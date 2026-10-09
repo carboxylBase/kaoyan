@@ -1,5 +1,20 @@
 # 11408 raw paper sources
 
+## Current status after local supplementation (2026-10-09)
+
+The sections below this update are historical collection notes, not an accurate description of the current file layout. See [the current resource index](../README.md) and [the per-file provenance manifest](../local_sources_manifest.json).
+
+- Local supplementary source: `E:\kaoyan`; selected PDF copies originate from https://github.com/youngflysky/KaoYanZhenTi-PDF. Files are copied byte-for-byte.
+- English 2014-2020 and 2022 previously contained HTTP 404 HTML under PDF filenames; all eight were replaced. The former `2024_english1.pdf` actually contains **2022 answers/explanations** and is now `../solutions/english1/2022_english1.pdf`. No verified 2024 English PDF is currently available locally; use the archived transcription with caution.
+- Math 2014-2022 former solution editions are now in `../solutions/math1/`, with question-only local editions at the original paper paths. Math 2023-2025 still include answers/explanations alongside questions.
+- English 2021's explanatory edition is preserved in `../solutions/english1/`; its paper path now contains a question-only edition.
+- Added older 408 papers (2009-2013), English papers (2002-2013), Math papers (2010-2013), Math solutions (2010-2013), and one 1987-2009 Math collection. Pre-2010 English is the pre-split national English examination.
+- Added local HTML transcriptions from 计算机考研杂货铺 (`https://www.csgraduates.com`) under `../archived_pages/`: politics 2010-2026, English 2010-2026, Math 2008-2026, 408 2009-2026. These are searchable secondary sources, not official scans. Their external resources are not all bundled.
+- Politics now has local HTML questions/explanations, but still has no PDF paper. The historical PDF links below remain candidates; this import made no network requests.
+- Validation: PDF signature and page-tree checks; sampled first/last-page rendering for replacement editions and suspected mislabels; SHA-256 equality for copied files. Not a complete per-question or per-page correctness audit.
+
+## Historical collection notes (before supplementation)
+
 This directory stores publicly accessible exam paper PDFs collected for 11408 preparation.
 
 ## Current files
